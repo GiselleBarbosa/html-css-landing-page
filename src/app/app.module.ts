@@ -14,6 +14,9 @@ import {MatMenuModule} from '@angular/material/menu';
 import { MainGridComponent } from './main-grid/main-grid.component'
 /* Imports main-grid */
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +30,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatIconModule,
     MatToolbarModule,
     MatMenuModule,
-    MatGridListModule
+    MatGridListModule,
+    MatFormFieldModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
