@@ -1,4 +1,30 @@
+* {
+  text-decoration: nome;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 5%;
+  cursor: pointer;
+}
+
 .container {
-  display:flex;
-  justify-content:space-around;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#icon-home {
+  display:inline-flex;
+  align-items: center;
+}
+
+.menu-central {
+  display: flex;
+
+}
+
+.menu-end  {
+  display: flex;
+
 }
