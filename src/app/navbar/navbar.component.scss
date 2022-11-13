@@ -4,27 +4,47 @@
 }
 
 li {
-  margin-right: 5%;
   cursor: pointer;
 }
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 
 #icon-home {
-  display:inline-flex;
+  display: inline-flex;
   align-items: center;
 }
 
 .menu-central {
   display: flex;
-
+  font-weight: 100;
+}
+.menu-central li {
+  margin-right: 7%;
 }
 
-.menu-end  {
+.menu-end {
   display: flex;
-
+  font-weight: 100;
 }
+.menu-end li {
+  margin-right: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  #icon-home {
+    display: none;
+  }
+  .menu-central li {
+    font-size: 16px;
+    justify-self: flex-start;
+  }
+  .menu-end li {
+    font-size: 16px;
+    align-items: flex-end;
+  }
+}
+
