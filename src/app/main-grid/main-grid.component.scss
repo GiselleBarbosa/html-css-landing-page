@@ -19,14 +19,18 @@ img {
 }
 .paragrafo {
   display: flex;
-
-  color:#666175;
+  color: #666175;
   letter-spacing: 1px;
-
 }
+
 .paragrafo02 {
   display: flex;
- 
-  color:#666175;
+  color: #666175;
   letter-spacing: 1px;
+  width: 90%;
+}
+
+input {
+ padding: 1.9%;
+ padding-right: 10%;
 }
