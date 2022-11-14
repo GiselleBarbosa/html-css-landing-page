@@ -10,18 +10,23 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 /* Imports Menu Navbar */
-import {MatMenuModule} from '@angular/material/menu';
-import { MainGridComponent } from './main-grid/main-grid.component'
-/* Imports main-grid */
-import {MatGridListModule} from '@angular/material/grid-list';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatMenuModule } from '@angular/material/menu';
+import { MainGridComponent } from './main-grid/main-grid.component';
 
+
+/* Imports main-grid */
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FooterComponent } from './footer/footer.component';
+
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    MainGridComponent
+    MainGridComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +36,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatToolbarModule,
     MatMenuModule,
     MatGridListModule,
-    MatFormFieldModule    
+    MatFormFieldModule,
+    MatButtonModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
