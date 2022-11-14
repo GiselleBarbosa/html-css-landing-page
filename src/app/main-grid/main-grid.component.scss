@@ -1,0 +1,36 @@
+img {
+  width: 100%;
+  margin-right: 15%;
+}
+
+.flex-container {
+  display: flexbox;
+  flex-direction: column;
+  width: 70%;
+}
+
+.titulo {
+  display: flex;
+  line-height: 4rem;
+  font-size: 3rem;
+  color: #464058;
+  text-shadow: 2px 3px #e4e1eb;
+  letter-spacing: 1px;
+}
+.paragrafo {
+  display: flex;
+  color: #666175;
+  letter-spacing: 1px;
+}
+
+.paragrafo02 {
+  display: flex;
+  color: #666175;
+  letter-spacing: 1px;
+  width: 90%;
+}
+
+input {
+ padding: 1.9%;
+ padding-right: 10%;
+}
