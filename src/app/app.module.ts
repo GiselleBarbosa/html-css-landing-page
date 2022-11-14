@@ -17,7 +17,7 @@ import { MainGridComponent } from './main-grid/main-grid.component';
 /* Imports main-grid */
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './texto/footer.component';
 
 import {MatButtonModule} from '@angular/material/button';
 
