@@ -11,19 +11,12 @@
   display: flex;
   font-weight: 100;
 }
-
 .menu-end {
   display: flex;
   font-weight: 100;
 }
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #icon-home {
-    display: hidden;
-  }
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: none;
   }
 }
