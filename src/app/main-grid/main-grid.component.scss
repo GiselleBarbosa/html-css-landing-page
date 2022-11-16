@@ -1,36 +1,84 @@
-img {
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container-left {
+  display: flexbox;
+  width: 80%;
+}
+
+.container-right {
+  display: flexbox;
+  padding: 10%;
+}
+
+.container-right img {
   width: 100%;
   margin-right: 15%;
 }
 
-.flex-container {
-  display: flexbox;
-  flex-direction: column;
-  width: 70%;
-}
-
 .titulo {
   display: flex;
-  line-height: 4rem;
+  font-weight: 400;
+  line-height: 3.5rem;
   font-size: 3rem;
   color: #464058;
   text-shadow: 2px 3px #e4e1eb;
   letter-spacing: 1px;
 }
+
 .paragrafo {
   display: flex;
+  margin-top: 15%;
   color: #666175;
   letter-spacing: 1px;
 }
 
 .paragrafo02 {
   display: flex;
+  margin-top: 8%;
+  margin-bottom: 10%;
   color: #666175;
   letter-spacing: 1px;
   width: 90%;
 }
 
 input {
- padding: 1.9%;
- padding-right: 10%;
+  padding: 2.7%;
+  padding-right: 1%;
 }
+
+.btn button {
+  padding: 10%;
+}
+// RESPONSIVIDADE //
+@media screen and (max-width: 600px) {
+  
+  .flexbox {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-right {
+    display: flex;
+  }
+
+  .titulo {
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .paragrafo,
+  .paragrafo02 {
+    font-size: 1rem;
+    margin-bottom: 3%;
+  }
+}
+
