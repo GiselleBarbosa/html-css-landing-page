@@ -20,13 +20,15 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FooterComponent } from './footer/footer.component';
 
 import {MatButtonModule} from '@angular/material/button';
+import { MainTextoComponent } from './main-texto/main-texto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     MainGridComponent,
-    FooterComponent
+    FooterComponent,
+    MainTextoComponent
   ],
   imports: [
     BrowserModule,
