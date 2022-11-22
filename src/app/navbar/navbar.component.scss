@@ -27,3 +27,29 @@
     flex-direction: column;
   }
 }
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: rgb(0, 0, 0);
+  margin: 8px;
+  transition: 0.3s;
+}
+.mobile-menu {
+  display: block;
+}
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
