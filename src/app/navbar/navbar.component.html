@@ -1,35 +1,24 @@
-<mat-toolbar>
-   <!-- Botão Menu Hamburguer !! Só Deverá aparecer com a tela a < 769px  -->
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-    <mat-icon class="icone-menu">menu</mat-icon>
-  </button>
-
-
-  <!-- logo inicio-->
-  <a class="navbar-brand logo" href="layout-one-1.html">
-    <img src="../../assets/images/logo-dark.png" alt="" class="logo-dark" height="24">
-    <img src="../../assets/imageslogo-light.png" alt="" class="logo-light" height="24">
-  </a>
-  <!-- logo final -->
-  
-  
-  <!-- Container geral para os itens do Menu -->
-    <div class="container-menu">
-
-    <!-- Menu central 5 itens -->
-    <section class="menu-central">
-      <button mat-button [routerLink]="['home']">Home</button>
-      <button mat-button>Features</button>
-      <button mat-button>Pricing</button>
-      <button mat-button>Blog</button>
-      <button mat-button>Contact Us</button>
-    </section>
-
-    <!-- Menu central 2 itens -->
-    <section class="menu-final">
-      <button mat-button>Log in</button>
-      <button mat-button>Register</button>
-    </section>
- 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
   </div>
-</mat-toolbar>
+</nav>
