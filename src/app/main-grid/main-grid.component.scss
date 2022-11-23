@@ -1,3 +1,8 @@
+.flex-container {
+  width: 100%;
+  height: 100vh;
+}
+
 .lado-esquerdo{
   display: flex;
   align-items: center;
@@ -13,21 +18,12 @@
   margin-bottom: 1.5rem!important;
   font-family: "Muli",sans-serif;
 }
-
-
-/* @media screen and (max-width: 768px) {
-  img {
-    width: 200px;
-  }
-
-} */
-
 .btn button {
   padding: 10%;
 }
 // RESPONSIVIDADE //
 @media screen and (max-width: 600px) {
-  
+
   .flexbox {
     flex-direction: column;
     width: 100%;
