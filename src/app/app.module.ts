@@ -12,6 +12,7 @@ import { BlogComponent } from './Pages/blog/blog.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { PreLoaderComponent } from './template/pre-loader/pre-loader.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,10 +26,12 @@ import { PreLoaderComponent } from './template/pre-loader/pre-loader.component';
     PreLoaderComponent,
     
   ],
+
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
