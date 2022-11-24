@@ -11,6 +11,7 @@ import { PricingComponent } from './Pages/pricing/pricing.component';
 import { BlogComponent } from './Pages/blog/blog.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { PreLoaderComponent } from './template/pre-loader/pre-loader.component';
+import { RoutingPagesRoutes } from './Pages/routing-pages.routing';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { PreLoaderComponent } from './template/pre-loader/pre-loader.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RoutingPagesRoutes
   ],
 
   providers: [],
