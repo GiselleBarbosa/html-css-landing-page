@@ -1,0 +1,23 @@
+element.style {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top left, #f59d9d 0%, #5a4fdc 100%);
+  z-index: 9999999;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
