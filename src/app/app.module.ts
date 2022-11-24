@@ -3,44 +3,31 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavbarComponent } from './navbar/navbar.component';
-
-import { MatIconModule } from '@angular/material/icon';
-import { MatToolbarModule } from '@angular/material/toolbar';
-
-/* Imports Menu Navbar */
-import { MatMenuModule } from '@angular/material/menu';
-import { MainGridComponent } from './main-grid/main-grid.component';
-
-
-/* Imports main-grid */
-import { MatGridListModule } from '@angular/material/grid-list';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { FooterComponent } from './footer/footer.component';
-
-import {MatButtonModule} from '@angular/material/button';
-import { MainTextoComponent } from './main-texto/main-texto.component';
+import { NavbarComponent } from './template/navbar/navbar.component';
+import { FooterComponent } from './template/footer/footer.component';
+import { HomeComponent } from './Pages/home/home.component';
+import { FeaturesComponent } from './Pages/features/features.component';
+import { PricingComponent } from './Pages/pricing/pricing.component';
+import { BlogComponent } from './Pages/blog/blog.component';
+import { ContactComponent } from './Pages/contact/contact.component';
+import { PreLoaderComponent } from './template/pre-loader/pre-loader.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    MainGridComponent,
     FooterComponent,
-    MainTextoComponent
+    HomeComponent,
+    FeaturesComponent,
+    PricingComponent,
+    BlogComponent,
+    ContactComponent,
+    PreLoaderComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatIconModule,
-    MatToolbarModule,
-    MatMenuModule,
-    MatGridListModule,
-    MatFormFieldModule,
-    MatButtonModule
-
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
