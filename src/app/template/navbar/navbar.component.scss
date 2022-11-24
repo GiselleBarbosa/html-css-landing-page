@@ -156,11 +156,13 @@ i[_ngcontent-ncq-c18] {
 .navbar-custom {
   margin-top: 0px;
   background-color: #fff !important;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   color: #fff !important;
 }
 
-.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li a:active {
+.navbar-custom .navbar-nav li.active a,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:active {
   color: #5a4fdc !important;
 }
 
@@ -168,15 +170,15 @@ li {
   display: list-item;
   text-align: -webkit-match-parent;
 }
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
   }
 }
 
 .mx-auto {
-  margin-right: auto!important;
-  margin-left: auto!important;
+  margin-right: auto !important;
+  margin-left: auto !important;
 }
 
 .navbar-nav {
@@ -187,7 +189,9 @@ li {
   list-style: none;
 }
 
-dl, ol, ul {
+dl,
+ol,
+ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
