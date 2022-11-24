@@ -25,7 +25,6 @@
     max-width: 1140px !important;
   }
 }
-
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -34,16 +33,13 @@
   text-decoration: none;
   white-space: nowrap;
 }
-
 a {
   text-decoration: none !important;
   outline: none;
 }
-
 .navbar-custom .logo .logo-dark {
   display: inline-block;
 }
-
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -53,29 +49,25 @@ a {
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
-
 @media (min-width: 200px) and (max-width: 768px) {
   .navbar-toggler {
     font-size: 24px;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #3b3950;
+    color: #3B3950;
   }
 }
-
 @media (min-width: 200px) and (max-width: 768px) {
   .navbar-custom > .container {
     width: 90%;
   }
 }
-
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled),
 button:not(:disabled) {
   cursor: pointer;
 }
-
 .container,
 .container-fluid,
 .container-lg,
@@ -89,11 +81,9 @@ button:not(:disabled) {
   margin-right: auto;
   margin-left: auto;
 }
-
 i {
   font-style: italic;
 }
-
 .navbar-toggler {
   font-size: 24px;
   margin-top: 5px;
@@ -103,7 +93,6 @@ i {
 /* *, ::after, ::before {
   box-sizing: border-box;
 } */
-
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -113,7 +102,6 @@ i {
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
-
 .bi-list:before,
 .bi-list-set {
   display: inline-block;
@@ -124,7 +112,6 @@ i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .bi-list::before {
   content: "\F479";
 }
@@ -138,11 +125,9 @@ i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 i[_ngcontent-ncq-c18] {
   font-style: italic;
 }
-
 .navbar-toggler[_ngcontent-osb-c18] {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -152,20 +137,17 @@ i[_ngcontent-ncq-c18] {
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
-
 .navbar-custom {
   margin-top: 0px;
   background-color: #fff !important;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   color: #fff !important;
 }
-
 .navbar-custom .navbar-nav li.active a,
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:active {
-  color: #5a4fdc !important;
+  color: #020202 !important;
 }
-
 li {
   display: list-item;
   text-align: -webkit-match-parent;
@@ -175,12 +157,10 @@ li {
     flex-direction: row;
   }
 }
-
 .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
 }
-
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -188,7 +168,6 @@ li {
   margin-bottom: 0;
   list-style: none;
 }
-
 dl,
 ol,
 ul {
