@@ -4,6 +4,8 @@ import { ContactComponent } from './contact/contact.component';
 import { FeaturesComponent } from './features/features.component';
 import { HomeComponent } from './home/home.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
 
@@ -12,6 +14,8 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'features', component: FeaturesComponent },
   { path: 'pricing', component: PricingComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
 
 ];
 

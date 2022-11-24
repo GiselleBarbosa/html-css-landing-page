@@ -12,6 +12,8 @@ import { BlogComponent } from './Pages/blog/blog.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { PreLoaderComponent } from './template/pre-loader/pre-loader.component';
 import { RoutingPagesRoutes } from './Pages/routing-pages.routing';
+import { LoginComponent } from './Pages/login/login.component';
+import { RegisterComponent } from './Pages/register/register.component';
 
 
 @NgModule({
@@ -25,6 +27,8 @@ import { RoutingPagesRoutes } from './Pages/routing-pages.routing';
     BlogComponent,
     ContactComponent,
     PreLoaderComponent,
+    LoginComponent,
+    RegisterComponent,
     
   ],
 
