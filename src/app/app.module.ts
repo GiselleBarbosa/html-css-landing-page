@@ -11,6 +11,10 @@ import { PricingComponent } from './Pages/pricing/pricing.component';
 import { BlogComponent } from './Pages/blog/blog.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { PreLoaderComponent } from './template/pre-loader/pre-loader.component';
+import { RoutingPagesRoutes } from './Pages/routing-pages.routing';
+import { LoginComponent } from './Pages/login/login.component';
+import { RegisterComponent } from './Pages/register/register.component';
+
 
 @NgModule({
   declarations: [
@@ -23,12 +27,17 @@ import { PreLoaderComponent } from './template/pre-loader/pre-loader.component';
     BlogComponent,
     ContactComponent,
     PreLoaderComponent,
+    LoginComponent,
+    RegisterComponent,
     
   ],
+
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RoutingPagesRoutes
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
