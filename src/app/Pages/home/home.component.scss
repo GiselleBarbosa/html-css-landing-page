@@ -1,8 +1,21 @@
 .hero-1-bg {
   padding: 130px 0 110px;
-  background: rgba(90,79,220,0.025);
+  background:#000000;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+.img-home {
+  max-width: 150%;
+}
+.hero-1-title {
+  color: #3b3950;
+  font-size: 52px;
+  text-shadow: 3px 3px 6px rgb(14 10 65 / 25%);
+}
+.text-muted {
+  font-size: 17px;
+  color: #939cb9;
+  line-height: 1.8;
 }
