@@ -1,3 +1,7 @@
+element.style {
+  background-image: url(/src/assets/images/hero-1-bg-img.png);
+}
+
 .hero-1-bg {
   padding: 130px 0 110px;
   background: rgba(90, 79, 220, 0.025);
@@ -5,31 +9,29 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  height: 100vh;
 }
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
 
+.hero-1-bg .hero-1-title {
+  font-size: 52px;
 }
-*,
-::after,
-::before {
-  box-sizing: border-box;
+
+img {
+  max-width: 100%;
 }
-.align-items-center {
-  align-items: center !important;
+
+img,
+svg {
+  vertical-align: middle;
 }
-.justify-content-center {
-  justify-content: center !important;
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.row > * {
+  position: relative;
 }
 
 .row {
@@ -42,43 +44,47 @@
   margin-left: calc(var(--bs-gutter-x) / -2);
 }
 
-@media (min-width: 992px) {
-  .col-lg-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-}
-.mx-auto {
-  margin-right: auto!important;
-  margin-left: auto!important;
-}
-.d-block {
-  display: block!important;
-}
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
 }
 
-img, svg {
-  vertical-align: middle;
-}
-
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 
-.row>* {
-  position: relative;
+.align-items-center {
+  align-items: center !important;
 }
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
 div {
   display: block;
 }
-//texto lado esquerdo
 
-.hero-1-bg .hero-1-title {
-  font-size: 52px;
-}
 .text-shadow {
   text-shadow: 3px 3px 6px rgb(14 10 65 / 25%);
 }
@@ -86,17 +92,33 @@ div {
   color: #3b3950 !important;
 }
 .fw-bold {
-  font-weight: 700!important;
+  font-weight: 700 !important;
 }
 .mb-4 {
-  margin-bottom: 1.5rem!important;
+  margin-bottom: 1.5rem !important;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Muli",sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Muli", sans-serif;
   font-weight: 700;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -104,12 +126,55 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mb-5 {
-  margin-bottom: 3rem!important;
+  margin-bottom: 3rem !important;
 }
 
 .w-75 {
-  width: 75%!important;
+  width: 75% !important;
 }
-img{
-  max-width: 100%;
+
+@media (min-width: 992px) {
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
 }
