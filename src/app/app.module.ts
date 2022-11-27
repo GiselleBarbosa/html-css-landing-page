@@ -15,6 +15,8 @@ import { RoutingPagesRoutes } from './Pages/routing-pages.routing';
 import { LoginComponent } from './Pages/login/login.component';
 import { RegisterComponent } from './Pages/register/register.component';
 
+import {MatIconModule} from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { RegisterComponent } from './Pages/register/register.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RoutingPagesRoutes
+    RoutingPagesRoutes,
+    MatIconModule,
+    BrowserAnimationsModule
   ],
 
   providers: [],
