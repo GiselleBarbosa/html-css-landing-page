@@ -17,7 +17,6 @@ import { RegisterComponent } from './Pages/register/register.component';
 
 import {MatIconModule} from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -42,7 +41,6 @@ import {MatCardModule} from '@angular/material/card';
     RoutingPagesRoutes,
     MatIconModule,
     BrowserAnimationsModule,
-    MatCardModule
   ],
 
   providers: [],
