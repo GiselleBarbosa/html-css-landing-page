@@ -6,9 +6,11 @@ element.style {
 ::before {
   box-sizing: border-box;
 }
+
 section {
   display: block;
 }
+
 .mb-3 {
   margin-bottom: 1rem !important;
 }
@@ -21,9 +23,11 @@ h6 {
   font-family: "Muli", sans-serif;
   font-weight: 700;
 }
+
 .row > * {
   position: relative;
 }
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -38,18 +42,22 @@ ol,
 ul {
   padding-left: 2rem;
 }
+
 .footer .footer-sub-menu li {
   padding: 6px 0;
 }
+
 .mb-5 {
   margin-bottom: 3rem !important;
 }
+
 img,
 svg {
   vertical-align: middle;
 }
+
 .footer-alt {
-  background: #23222F;
+  background: #23222f;
 }
 .py-3 {
   padding-top: 1rem !important;
@@ -66,9 +74,11 @@ svg {
 ::before {
   box-sizing: border-box;
 }
+
 div {
   display: block;
 }
+
 img {
   height: 24px;
   vertical-align: middle;
@@ -174,9 +184,11 @@ a {
   outline: none;
   color: rgba(255, 255, 255, 0.5);
 }
+
 .text-white {
   color: #fff !important;
 }
+
 .text-uppercase {
   text-transform: uppercase !important;
   font-size: 1rem;
@@ -279,9 +291,11 @@ ul {
   color: rgba(255, 255, 255, 0.5);
   transition: all 0.5s;
 }
+
 .col-lg-4 {
   margin-top: 3%;
 }
+
 .footer .footer-social-icon-content .footer-social-icon:hover {
   color: rgba(255, 255, 255, 0.975);
   transition: all 0.5s;
@@ -299,7 +313,9 @@ ul {
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
 }
+
 // responsividade
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px !important;

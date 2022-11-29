@@ -1,3 +1,8 @@
+element.style {
+  background-image: url(../../../assets/images/hero-1-bg-img.png);
+  outline: none;
+}
+
 .hero-1-bg {
   padding: 130px 0 110px;
   background: rgba(90, 79, 220, 0.025);
@@ -8,6 +13,7 @@
   height: 100vh;
   margin-top: 2%;
 }
+
 
 .hero-1-bg .hero-1-title {
   font-size: 52px;
@@ -322,30 +328,8 @@ div {
   display: block;
 }
 
-
-.wc-box.wc-box-primary .wc-box-icon {
-  background: rgba(90,79,220,0.12);
-  color: #5a4fdc;
-}
-.wc-box .wc-box-icon {
-  font-size: 30px;
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-.mdi-trending-up::before {
-  content: "\F0535";
-}
-
-
-.mdi:before {
-  display: inline-block;
-  font: normal normal normal 24px/1 "Material Design Icons";
-  font-size: inherit;
-  text-rendering: auto;
-  line-height: inherit;
-  -webkit-font-smoothing: antialiased;
+@media (max-width: 500px) {
+  section{
+    margin-bottom: 150%;
+  }
 }
