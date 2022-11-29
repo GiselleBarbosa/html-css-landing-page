@@ -1,3 +1,8 @@
+element.style {
+  background-image: url(../../../assets/images/hero-1-bg-img.png);
+  outline: none;
+}
+
 .hero-1-bg {
   padding: 130px 0 110px;
   background: rgba(90, 79, 220, 0.025);
@@ -8,6 +13,7 @@
   height: 100vh;
   margin-top: 2%;
 }
+
 
 .hero-1-bg .hero-1-title {
   font-size: 52px;
@@ -293,3 +299,8 @@ textarea {
   }
 }
 
+@media (max-width: 500px) {
+  section{
+    margin-bottom: 150%;
+  }
+}
