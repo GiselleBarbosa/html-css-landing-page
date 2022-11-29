@@ -9,11 +9,29 @@
   position: 679px;
 }
 
+.navbar-custom {
+  padding: 15px 0px;
+  width: 100%;
+  border-radius: 0px;
+  z-index: 999;
+  margin-bottom: 0px;
+  transition: all 0.5s ease-in-out;
+  background-color: transparent;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -36,16 +54,6 @@
   margin-top: 5px;
   margin-bottom: 0px;
   color: #fff;
-}
-
-.navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  transition: box-shadow 0.15s ease-in-out;
 }
 
 .navbar-toggler {
@@ -105,6 +113,52 @@ a {
   outline: none;
 }
 
+a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.navbar-collapse {
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-custom .navbar-nav li a {
+  line-height: 26px;
+  color: rgba(59,57,80,0.7);
+  font-size: 15px;
+  font-weight: 100;
+  transition: all 0.5s;
+  background-color: transparent !important;
+  padding: 6px 0;
+  margin: 0 20px;
+}
+.nav-item .nav-link {
+  display: inline-block;
+  color: #3b3950;
+  text-decoration: none;
+  font-family: "Muli",sans-serif;
+}
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li a:active {
+    color: #5a4fdc !important;
+}
+.collapse:not(.show) {
+  display: none;
+}
+
+
+
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled),
@@ -149,17 +203,6 @@ i[_ngcontent-ncq-c18] {
   content: "\F479";
 }
 
-.bi-list:before,
-.bi-list-set {
-  display: inline-block;
-  font: normal normal normal 24px/1 "Material Design Icons";
-  font-size: inherit;
-  text-rendering: auto;
-  line-height: inherit;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
@@ -170,6 +213,51 @@ ol,
 ul {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.nav-sticky.navbar-custom .navbar-nav {
+  margin-top: 0px;
+}
+
+.navbar-custom .navbar-nav li .nav-link {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.nav-sticky.navbar-custom .navbar-nav li a {
+  color: #8c8aac !important;
+}
+
+.nav-item .nav-link {
+  display: inline-block;
+  color: #3b3950;
+  text-decoration: none;
+  font-family: "Muli",sans-serif;
+ 
+}
+
+.navbar-custom {
+    padding: 15px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 // RESPONSIVIDADE //
@@ -194,9 +282,62 @@ ul {
   }
 }
 @media (min-width: 200px) and (max-width: 768px) {
-  .navbar-custom > 
-  
-  .container {
+  .navbar-custom > .container {
     width: 90%;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
   }
 }
