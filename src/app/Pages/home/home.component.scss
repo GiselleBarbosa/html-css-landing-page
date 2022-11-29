@@ -293,3 +293,31 @@ textarea {
   }
 }
 
+.wc-box.wc-box-primary:hover {
+  background: #5a4fdc;
+  box-shadow: 0 5px 18px rgb(90 79 220 / 40%);
+}
+.wc-box:hover {
+  transform: translateY(-6px);
+}
+.wc-box, .wc-box-icon, .wc-title, .wc-subtitle {
+  transition: all 0.5s;
+}
+.wc-box {
+  margin-bottom: 30px;
+}
+.rounded {
+  border-radius: 0.25rem!important;
+}
+.text-center {
+  text-align: center!important;
+}
+.p-4 {
+  padding: 1.5rem!important;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
